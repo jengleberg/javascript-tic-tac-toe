@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+h1 {
+    padding-top: 30px;
+}
+
+#message {
+    padding-top: 30px;
+}
+
+table {
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 30px;
+}
+
+.square {
+    border: 1px solid grey;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 4em;
+    box-sizing: border-box;
+}
+
+#start {
+    width: auto;
+    height: auto;
+    margin: 5px;
+    padding: 10px;
+}

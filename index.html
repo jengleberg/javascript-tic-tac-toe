@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tic-Tac-Toe</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+	<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+	
+</head>
+<body>
+	<h1>Javascript Tic-Tac-Toe Game</h1>
+	<div id="message">This is where the message goes.</div>
+	<table>
+		<tr>
+			<td class="square" id="1" onClick="nextMove(this)"></td>
+			<td class="square" id="2" onClick="nextMove(this)"></td>
+			<td class="square" id="3" onClick="nextMove(this)"></td>
+		</tr>
+		<tr>
+			<td class="square" id="4" onClick="nextMove(this)"></td>
+			<td class="square" id="5" onClick="nextMove(this)"></td>
+			<td class="square" id="6" onClick="nextMove(this)"></td>
+		</tr>
+		<tr>
+			<td class="square" id="7" onClick="nextMove(this)"></td>
+			<td class="square" id="8" onClick="nextMove(this)"></td>
+			<td class="square" id="9" onClick="nextMove(this)"></td>
+		</tr>
+	</table>
+	<button id="start" onClick="startGame()">Start New Game</button>
+	<script src="main.js"></script>
+</body>
+</html>
